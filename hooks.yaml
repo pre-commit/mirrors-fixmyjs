@@ -1,0 +1,5 @@
+-   id: fixmyjs
+    name: fixmyjs
+    entry: fixmyjs
+    language: node
+    files: \.js$
