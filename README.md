@@ -5,7 +5,7 @@ Mirror of fixmyjs package for pre-commit.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For jshint: see https://github.com/jshint/fixmyjs
+For fixmyjs: see https://github.com/jshint/fixmyjs
 
 NOTE: fixmyjs requires pre-commit>=2.9
 
