@@ -16,3 +16,14 @@ Add this to your `.pre-commit-config.yaml`:
         sha: ''  # Use the sha you want to point at
         hooks:
         -   id: fixmyjs
+
+It appears the most recent versions of fixmyjs are a work in progress.
+It's best to use the legacy version for the time being by passing the -l
+flag in `.pre-commit-config.yaml`:
+
+    -   repo: git://github.com/pre-commit/mirrors-fixmyjs
+        sha: ''  # Use the sha you want to point at
+        hooks:
+        -   id: fixmyjs
+        -   args: ['-l', '-c', '.jshintrc']
+
