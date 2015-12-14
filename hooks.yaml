@@ -3,3 +3,8 @@
     entry: fixmyjs
     language: node
     files: \.js$
+    args: []
+
+    # Use additional_dependencies to install the actual node package
+    additional_dependencies: ['fixmyjs@0.13.3']
+    minimum_pre_commit_version: 0.7.0
