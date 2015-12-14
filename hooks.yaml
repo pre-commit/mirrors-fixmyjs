@@ -6,5 +6,5 @@
     args: []
 
     # Use additional_dependencies to install the actual node package
-    additional_dependencies: ['fixmyjs@0.13.4']
+    additional_dependencies: ['fixmyjs@0.13.5']
     minimum_pre_commit_version: 0.7.0
