@@ -7,7 +7,7 @@ For pre-commit: see https://github.com/pre-commit/pre-commit
 
 For fixmyjs: see https://github.com/jshint/fixmyjs
 
-NOTE: fixmyjs requires pre-commit>=2.9
+NOTE: fixmyjs requires pre-commit>=0.2.9
 
 
 ### Using fixmyjs with pre-commit
