@@ -27,5 +27,5 @@ flag in `.pre-commit-config.yaml`:
         rev: ''  # Use the sha / tag you want to point at
         hooks:
         -   id: fixmyjs
-        -   args: ['-l', '-c', '.jshintrc']
+            args: ['-l', '-c', '.jshintrc']
 
